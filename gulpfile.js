@@ -5,10 +5,9 @@ var gulp   = require('gulp'),
     watch = require('gulp-watch'),
     util = require('gulp-util'),
     sourcemaps = require('gulp-sourcemaps'),
-    livereload = require('gulp-livereload'),
+    livereload = require('gulp-refresh'),
     concat = require('gulp-concat'),
     runSequence = require('run-sequence');
-
 
 // This will run in this order:
 // * connect
@@ -23,7 +22,6 @@ gulp.task('default', function(callback) {
 // Watch files for dev mode and reload when changed
 gulp.task('watch', function() {
   // Create LiveReload server
-  livereload({ start: true });
   livereload.listen();
   gulp.watch('source/styles/*.scss', ['build-css']);
   gulp.watch('source/*.jade', ['jade']);
