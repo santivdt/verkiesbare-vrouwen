@@ -1,6 +1,7 @@
 var gulp   = require('gulp'),
     sass   = require('gulp-sass'),
     jade   = require('gulp-jade'),
+    concat = require('gulp-concat'),
     connect = require('gulp-connect'),
     watch = require('gulp-watch'),
     util = require('gulp-util'),
@@ -15,7 +16,7 @@ var gulp   = require('gulp'),
 // * jade and sass in parallel
 // * Finally call the callback function
 gulp.task('default', function(callback) {
-  runSequence('connect', 'watch', 'jade', 'build-css',
+  runSequence('connect', 'watch', 'jade', 'build-css', 'scripts',
     callback);
 });
 
@@ -25,6 +26,7 @@ gulp.task('watch', function() {
   livereload.listen();
   gulp.watch('source/styles/*.scss', ['build-css']);
   gulp.watch('source/*.jade', ['jade']);
+  gulp.watch('source/js/*.js', ['scripts']);
 });
 
 // CONNECT: Connect to local server
@@ -54,6 +56,13 @@ gulp.task('jade', function() {
     }))
     .pipe(gulp.dest('public'))
     .pipe(livereload());
+});
+
+/* Javascript Task */
+gulp.task('scripts', function() {
+  return gulp.src('source/js/*.js')
+    .pipe(concat('main.js'))
+    .pipe(gulp.dest('public/js'));
 });
 
 // gulp.task('watch', function() {
