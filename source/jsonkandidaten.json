@@ -45,6 +45,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "VVD",
               "MenuName": "VVD",
+              "website": "https://vvd.nl/",
               "_Id": "1"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -2740,6 +2741,7 @@
           }, {
             "AffiliationIdentifier": {
               "RegisteredName": "Partij van de Arbeid (P.v.d.A.)",
+              "website": "https://www.pvda.nl/",
               "MenuName": "PvdA",
               "_Id": "2"
             },
@@ -5418,6 +5420,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "PVV (Partij voor de Vrijheid)",
               "MenuName": "PVV",
+              "website": "http://www.pvv.nl/",
               "_Id": "3"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -7113,6 +7116,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "SP (Socialistische Partij)",
               "MenuName": "SP",
+              "website": "https://www.sp.nl/",
               "_Id": "4"
             },
             "Type": "lijstengroep",
@@ -8802,6 +8806,7 @@
               "RegisteredName": "CDA",
               "website": "https://www.cda.nl/mensen/kandidaten/",
               "MenuName": "CDA",
+              "website": "https://www.cda.nl/",
               "_Id": "5"
             },
             "Type": "lijstengroep",
@@ -10510,8 +10515,8 @@
           }, {
             "AffiliationIdentifier": {
               "RegisteredName": "Democraten 66 (D66)",
-              "website": "https://d66.nl/organisatie/kandidaten-tweede-kamer-2017-2021/",
               "MenuName": "D66",
+              "website": "https://d66.nl/",
               "_Id": "6"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -12202,6 +12207,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "ChristenUnie",
               "MenuName": "CU",
+              "website": "https://www.christenunie.nl/",
               "_Id": "7"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -13872,6 +13878,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "GROENLINKS",
               "MenuName": "GroenLinks",
+              "website": "https://groenlinks.nl/",
               "_Id": "8"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -15228,6 +15235,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Staatkundig Gereformeerde Partij (SGP)",
               "MenuName": "SGP",
+              "website": "https://www.sgp.nl/",
               "_Id": "9"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -16239,6 +16247,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Partij voor de Dieren",
               "MenuName": "PvdD",
+              "website": "https://www.partijvoordedieren.nl/",
               "_Id": "10"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -16904,6 +16913,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/miesvandoorn",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -16936,6 +16946,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.limburg.nl/Bestuur/Provinciale_Staten/Statenleden/Wie_is_Wie_Statenleden_2015_2019/Plusquin_Pascale_P_S_M_L",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17004,6 +17015,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.youtube.com/watch?v=yHGAPrIE3dg",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17036,6 +17048,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://flevoland.partijvoordedieren.nl/leonie-vestering",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17104,6 +17117,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.linkedin.com/in/kirstendewrede/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17140,6 +17154,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://afdelingfriesland.partijvoordedieren.nl/news/kandidaten-stellen-zich-voor-rinie-van-der-zanden",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17172,6 +17187,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/treesjanssens",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17204,6 +17220,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.pinkpolitiek.nl/interview-ines-kostic/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17236,6 +17253,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Anja_Hazekamp",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17364,6 +17382,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Bibi_Dumon_Tak",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17500,6 +17519,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://nos.nl/op3/artikel/2158261-zelf-niet-stemmen-maar-wel-verkiesbaar-malou-17.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17536,6 +17556,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Mensje_van_Keulen",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17568,6 +17589,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.evameijer.nl/bio.htm",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17600,6 +17622,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Charlotte_Mutsaers",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17664,6 +17687,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://nl.thesittingchef.com/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17735,6 +17759,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://mirjamrotenstreich.com/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17771,6 +17796,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.teske.nl/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17803,6 +17829,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.annemiekschrijver.nl/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17871,6 +17898,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://babettevanveen.nl/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17903,6 +17931,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Georgina_Verbaan",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -17949,6 +17978,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "50PLUS",
               "MenuName": "50Plus",
+              "website": "https://50pluspartij.nl",
               "_Id": "11"
             },
             "Type": "lijstengroep",
@@ -18013,6 +18043,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/L%C3%A9onie_Sazias",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18085,6 +18116,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Corrie_van_Brenk",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18217,6 +18249,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.50pluspartij.nl/actueel/1734-50plus-wilma-schrover",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18385,6 +18418,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.parlement.com/id/vk9yk1t0ooo4/p_petra_van_veeren",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18481,6 +18515,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.parlement.com/id/vka1azrgkqmg/n_natascha_kroonstuiver",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18549,6 +18584,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Monique_van_de_Griendt",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18713,6 +18749,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.bd.nl/regio/den-bosch-e-o/s-hertogenbosch/profiel-lijsttrekker-adriana-hern%C3%A1ndez-mart%C3%ADnez-opa-1.4567505",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18877,6 +18914,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/rosa_molenaar",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -18977,6 +19015,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.50pluspartij.nl/mensen1/1633-olga-de-meij",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -19088,6 +19127,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/jolanda_v_hulst",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -19120,6 +19160,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.omroepflevoland.nl/dossier/523/rhianna-gralike",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -19592,6 +19633,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://50pluspartij.nl/mensen1/1634-mieke-hoek",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -19638,6 +19680,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "OndernemersPartij",
               "MenuName": "OndernemersPartij",
+              "website": "http://www.ondernemerspartij.nl/",
               "_Id": "12"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -19702,6 +19745,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/martine_1973",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -19842,6 +19886,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.ondernemerspartij.nl/kandidaten-tweede-kamer/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -19906,6 +19951,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/sophieandriol?lang=nl",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -20016,6 +20062,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "VNL (VoorNederland)",
               "MenuName": "VNL",
+              "website": "https://www.vnl.nu/",
               "_Id": "13"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -20148,6 +20195,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.joop.nl/nieuws/raadslid-leefbaar-rotterdam-tanya-hoogwerf-hoog-op-kieslijst-vnl",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -20620,6 +20668,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Laurence_Stassen",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -20634,6 +20683,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "DENK",
               "MenuName": "Denk",
+              "website": "https://www.bewegingdenk.nl",
               "_Id": "14"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -20762,6 +20812,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/gladysdenk",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -20830,6 +20881,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.europa-nu.nl/id/vkajf250t2xk/nieuws/magdalena_charlot_is_kandidaat_voor_denk",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -20894,6 +20946,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.europa-nu.nl/id/vkajfb5oq0k3/nieuws/aysegul_kilic_is_kandidaat_voor_denk",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -20926,6 +20979,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/mkoolbergen?lang=nl",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -20994,6 +21048,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/marit_vsplunter",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21058,6 +21113,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/1rabiakaraman",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21218,6 +21274,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lmgtfy.com/?q=keziban+ince",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21232,6 +21289,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "NIEUWE WEGEN",
               "MenuName": "Nieuwe Wegen",
+              "website": "https://www.nieuwewegen.nu/index.html",
               "_Id": "15"
             },
             "Type": "lijstengroep",
@@ -21328,6 +21386,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://twitter.com/ramoon_74",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21424,6 +21483,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21528,6 +21588,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21628,6 +21689,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21696,6 +21758,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21800,6 +21863,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -21868,6 +21932,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -22132,6 +22197,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -22204,6 +22270,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nieuwewegen.nu/nieuws/profielenlijst.html",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -22250,6 +22317,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Forum voor Democratie",
               "MenuName": "FvD",
+              "website": "https://forumvoordemocratie.nl/",
               "_Id": "16"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -22346,6 +22414,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://forumvoordemocratie.nl/mensen/susan-teunissen",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -22474,6 +22543,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://forumvoordemocratie.nl/mensen/susan-stolze-van-rijn",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -22570,6 +22640,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://forumvoordemocratie.nl/mensen/zlata-brouwer",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -22670,6 +22741,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://forumvoordemocratie.nl/mensen/carola-dieudonn",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -22906,6 +22978,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://forumvoordemocratie.nl/mensen/astrid-de-groot",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23066,6 +23139,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://forumvoordemocratie.nl/mensen/saskia-koning",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23244,6 +23318,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "De Burger Beweging",
               "MenuName": "DBB",
+              "website": "http://www.deburgerbeweging.nl/",
               "_Id": "17"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -23387,6 +23462,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23419,6 +23495,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23451,6 +23528,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23579,6 +23657,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Country": {
                   "CountryNameCode": {
@@ -23650,6 +23729,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23746,6 +23826,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23846,6 +23927,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23878,6 +23960,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23942,6 +24025,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -23974,6 +24058,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24006,6 +24091,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24038,6 +24124,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24202,6 +24289,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24266,6 +24354,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24302,6 +24391,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24374,6 +24464,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24534,6 +24625,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.deburgerbeweging.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24644,6 +24736,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Vrijzinnige Partij",
               "MenuName": "VP",
+              "website": "https://vrijzinnigepartij.nl/",
               "_Id": "18"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -24708,6 +24801,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://vrijzinnigepartij.nl/marie-louise-loomans/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -24772,6 +24866,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://vrijzinnigepartij.nl/artemis-westenberg/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -25113,6 +25208,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "GeenPeil",
               "MenuName": "GP",
+              "website": "https://geenpeil.nl/",
               "_Id": "19"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -25177,6 +25273,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.raadslid.nu/node/5005",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -25273,6 +25370,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.except.nl/nl/userprofiles/249-chantal-klaver",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -25405,6 +25503,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.nieuwsbode-zeist.nl/nieuws/zakelijk/80536/schrijfstervivienne-groenewoud-uit-zeist-kandidaat-voor-geenpeil-",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -25587,6 +25686,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Piratenpartij",
               "MenuName": "Piraten Partij",
+              "website": "https://tk2017.piratenpartij.nl/",
               "_Id": "20"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -25623,6 +25723,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Ancilla_van_de_Leest",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -25751,6 +25852,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://tk2017.piratenpartij.nl/kieslijst/petra-downs/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -26714,6 +26816,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://tk2017.piratenpartij.nl/kieslijst/floor-ziegler/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -26824,6 +26927,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Artikel 1",
               "MenuName": "Artikel1",
+              "website": "http://www.artikel1.org/",
               "_Id": "21"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -26856,6 +26960,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://nl.wikipedia.org/wiki/Sylvana_Simons",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -26888,6 +26993,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/2-fatima-faid-14763",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -26920,6 +27026,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/3-brigitte-sins-14764",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27056,6 +27163,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/7-phyllis-doll-osei-ameyaw-14767",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27092,6 +27200,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/8-simone-van-saarloos-14777",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27188,6 +27297,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/11-juanita-hernandez-14780",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27288,6 +27398,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/14-marianella-leito-14783",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27356,6 +27467,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/16-annemieke-bakker-14787",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27388,6 +27500,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/17-anne-ruth-wertheim-14788",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27452,6 +27565,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/19-gloria-wekker-14791",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27484,6 +27598,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://www.artikel1.org/news/kandidaten/20-anja-meulenbelt-14790",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27498,6 +27613,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Niet Stemmers",
               "MenuName": "Niet Stemmers",
+              "website": "https://www.nietstemmers.nl/",
               "_Id": "22"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -27666,6 +27782,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nietstemmers.nl/uitleg/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27730,6 +27847,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nietstemmers.nl/uitleg/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27762,6 +27880,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nietstemmers.nl/uitleg/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27826,6 +27945,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nietstemmers.nl/uitleg/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27858,6 +27978,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nietstemmers.nl/uitleg/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27890,6 +28011,7 @@
                 }
               },
               "Gender": "female",
+              "website": "https://www.nietstemmers.nl/uitleg/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -27904,6 +28026,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Libertarische Partij (LP)",
               "MenuName": "LP",
+              "website": "http://stemlp.nl/",
               "_Id": "23"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -28032,6 +28155,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://denhaag.libertarischepartij.nl/mensen/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -28513,6 +28637,7 @@
             "AffiliationIdentifier": {
               "RegisteredName": "Lokaal in de Kamer",
               "MenuName": "LidK",
+              "website": "http://lokaalindekamer.nl/",
               "_Id": "24"
             },
             "Type": "stel gelijkluidende lijsten",
@@ -28677,6 +28802,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/denise-kunst/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -28809,6 +28935,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -28845,6 +28972,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -28881,6 +29009,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/joke-van-ruitenbeek/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -28981,6 +29110,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -29213,6 +29343,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/ans-van-der-velde/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -29277,6 +29408,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
@@ -29313,6 +29445,7 @@
                 }
               },
               "Gender": "female",
+              "website": "http://lokaalindekamer.nl/kandidaten/",
               "QualifyingAddress": {
                 "Locality": {
                   "LocalityName": {
