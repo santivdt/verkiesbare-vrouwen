@@ -164,3 +164,7 @@ ul.table-of-contents {
     color: $red!important;
   }
 }
+
+#sidenav-overlay {
+  z-index: 996!important;
+}
