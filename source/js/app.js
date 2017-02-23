@@ -8,23 +8,27 @@ app.controller('CandidateCtrl', function ($scope, $http) {
   $http.get(json).then(handleSuccess, handleError);
 
   $scope.generateRandomWoman = function(party) {
-    console.log('random woman', party);
-    console.log($scope.affiliation);
-    var partyObject = _.find($scope.affiliation, function(item){return item.AffiliationIdentifier.MenuName == party;});
-    var candidateList = partyObject.Candidate;
-    console.log('candidateList = ', candidateList);
+    console.log('Generating random woman from the ', party);
 
-
-    for(var i = 0; i = 100; i++) {
-      var randomPerson = candidateList[Math.floor(Math.random() * candidateList.length)];
-      if (randomPerson.Gender == 'female') {
-        return $scope.randomWoman = randomPerson.CandidateFullName.PersonName.FirstName.__text + ' ' + '' + randomPerson.CandidateFullName.PersonName.LastName.__text;
-      }
-      return $scope.randomWoman
+    if(party == 'SGP') {
+      $scope.randomWoman = ' ...helaas, er is geen vrouw!';
     }
 
+    var partyObject = _.find($scope.affiliation, function(item){return item.AffiliationIdentifier.MenuName == party;});
+    var candidateList = partyObject.Candidate;
+    console.log(candidateList.length);
+    var womenOfSelectedParty = [];
+    for (var i = 0; i < candidateList.length; i++) {
+      if(candidateList[i].Gender == 'female') {
+        womenOfSelectedParty.push(candidateList[i]);
+        }
+    }
 
-
+    var rWO = womenOfSelectedParty[Math.floor(Math.random() * womenOfSelectedParty.length)];
+    console.log('rWO = ', rWO);
+    var randomWoman = rWO.CandidateFullName.PersonName.FirstName.__text + ' ' + rWO.CandidateFullName.PersonName.LastName.__text
+    //+ rWO.CandidateFullName.PersonName.NamePrefix.__text
+    $scope.randomWoman = randomWoman;
     console.log('$scope.randomWoman = ', $scope.randomWoman);
 
 
