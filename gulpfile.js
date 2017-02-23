@@ -16,7 +16,7 @@ var gulp   = require('gulp'),
 // * jade and sass in parallel
 // * Finally call the callback function
 gulp.task('default', function(callback) {
-  runSequence('connect', 'watch', 'jade', 'build-css', 'scripts',
+  runSequence('connect', 'watch', 'jade', 'build-css', 'scripts', 'json',
     callback);
 });
 
@@ -27,6 +27,7 @@ gulp.task('watch', function() {
   gulp.watch('source/styles/*.scss', ['build-css']);
   gulp.watch('source/*.jade', ['jade']);
   gulp.watch('source/js/*.js', ['scripts']);
+  gulp.watch('source/*.json', ['json']);
 });
 
 // CONNECT: Connect to local server
@@ -62,7 +63,15 @@ gulp.task('jade', function() {
 gulp.task('scripts', function() {
   return gulp.src('source/js/*.js')
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('public/js'));
+    .pipe(gulp.dest('public/js'))
+    .pipe(livereload());
+});
+
+/* Json Task */
+gulp.task('json', function() {
+  return gulp.src('source/*.json')
+    .pipe(gulp.dest('public/'))
+    .pipe(livereload());
 });
 
 // gulp.task('watch', function() {
