@@ -18,6 +18,7 @@ app.controller('CandidateCtrl', function ($scope, $http) {
     var candidateList = partyObject.Candidate;
     console.log(candidateList.length);
     var womenOfSelectedParty = [];
+
     for (var i = 0; i < candidateList.length; i++) {
       if(candidateList[i].Gender == 'female') {
         womenOfSelectedParty.push(candidateList[i]);
@@ -26,9 +27,11 @@ app.controller('CandidateCtrl', function ($scope, $http) {
 
     var rWO = womenOfSelectedParty[Math.floor(Math.random() * womenOfSelectedParty.length)];
     console.log('rWO = ', rWO);
-    var randomWoman = rWO.CandidateFullName.PersonName.FirstName.__text + ' ' + rWO.CandidateFullName.PersonName.LastName.__text
+    var randomWoman = rWO.CandidateFullName.PersonName.FirstName.__text + ' ' + rWO.CandidateFullName.PersonName.LastName.__text;
     //+ rWO.CandidateFullName.PersonName.NamePrefix.__text
     $scope.randomWoman = randomWoman;
+    $scope.website = rWO.website;
+    $scope.plek = rWO.CandidateIdentifier._Id;
     console.log('$scope.randomWoman = ', $scope.randomWoman);
 
 

@@ -47,6 +47,10 @@ button.button {
     color: $red;
   }
 
+  &:focus {
+    background-color: $red;
+  }
+
   a:hover {
     color: $red;
   }
