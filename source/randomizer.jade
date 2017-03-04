@@ -117,7 +117,9 @@ html
                         button.button(ng-click="generateRandomWoman(choosenParty)") Geef mij een vrouw
                         p(ng-if="randomWoman") Gefeliciteerd, jouw random vrouw is&nbsp;
                                 a.link(href="{{website}}", target="_blank") {{randomWoman}}!
-                        p(ng-if="randomWoman") Zij staat op plek {{plek}} .
+                        p(ng-if="randomWoman") Zij staat op plek {{plek}}. De {{choosenParty}} wordt gepeild op {{peiling}} zetels.&nbsp;
+                            span(ng-if="nuttig === 1") Zij staat laag op de lijst en kan met jouw voorkeursstem toch de kamer in komen!
+                            span(ng-if="nuttig === 0") Helaas, zij komt waarschijnlijk sowieso in de kamer, genereer een nieuwe vrouw!
 
         script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
         script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js')

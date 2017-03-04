@@ -85,37 +85,6 @@ html
                     //            i.material-icons.prefix
                     //            input#icon_prefix.validate(ng-model="search", type="text")
                     //            label(for='icon_prefix') Search
-                    // RANDOM GENERATOR TEST
-                    .input-field.col.s12
-                        select(ng-model="choosenParty")
-                            option(value='', disabled='', selected='') Kies je partij
-                            option(value='VVD') VVD
-                            option(value='PvdA') PvdA
-                            option(value='PVV') PVV
-                            option(value='SP')  SP
-                            option(value='CDA')  CDA
-                            option(value='D66')  D66
-                            option(value='CU')  CU
-                            option(value='GroenLinks') GroenLinks
-                            option(value='SGP') SGP
-                            option(value='PvdD') Partij voor de Dieren
-                            option(value='50Plus') 50Plus
-                            option(value='OndernemersPartij') OndernemersPartij
-                            option(value='VNL') VNL
-                            option(value='Denk') Denk
-                            option(value='Nieuwe Wegen') Nieuwe Wegen
-                            option(value='FvD') FvD
-                            option(value='DBB') DBB
-                            option(value='VP') VP
-                            option(value='GP') GeenPeil
-                            option(value='Piraten Partij') Piraten Partij
-                            option(value='Artikel1') Artikel 1
-                            option(value='Niet Stemmers') Niet Stemmers
-                            option(value='LP') Libertarische Partij
-                            option(value='LidK') Lokaal in de Kamer
-                        label Kies je partij
-                        button.button(ng-click="generateRandomWoman(choosenParty)") GO randomize
-                        p(ng-if="randomWoman") Gefeliciteerd, jouw random vrouw is {{randomWoman}}!
 
                     //row met partijen table
                     .row.section.scrollspy

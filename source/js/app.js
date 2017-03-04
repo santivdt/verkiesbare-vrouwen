@@ -19,6 +19,8 @@ app.controller('CandidateCtrl', function ($scope, $http) {
     console.log(candidateList.length);
     var womenOfSelectedParty = [];
 
+    $scope.peiling = peilingen[party];
+
     for (var i = 0; i < candidateList.length; i++) {
       if(candidateList[i].Gender == 'female') {
         womenOfSelectedParty.push(candidateList[i]);
@@ -34,19 +36,54 @@ app.controller('CandidateCtrl', function ($scope, $http) {
     $scope.plek = rWO.CandidateIdentifier._Id;
     console.log('$scope.randomWoman = ', $scope.randomWoman);
 
+    if($scope.plek > $scope.peiling) {
+      $scope.nuttig = 1;
+    }
+    else {
+      $scope.nuttig = 0;
+    }
+
+    console.log('$scope.nuttig = ', $scope.nuttig);
+
 
   };
 
   function handleSuccess(response) {
     $scope.loading = '';
     $scope.affiliation = response.data.EML.CandidateList.Election.Contest.Affiliation;
-    // console.log( $scope.affiliation);
-    // console.log( $scope.affiliation[0]);
-    // console.log( $scope.affiliation[0]);
   };
+
   function handleError(error) {
     console.log( error);
   };
+
+
+  var peilingen = {
+    "VVD": 27,
+    "PvdA": 14,
+    "PVV": 27,
+    "SP": 14,
+    "CDA": 19,
+    "D66": 18,
+    "CU": 7,
+    "GroenLinks": 17,
+    "SGP": 5,
+    "PvdD": 6,
+    "50Plus": 7,
+    "OndernemersPartij": 0,
+    "VNL": 1,
+    "Denk": 2,
+    "Nieuwe Wegen": "geen",
+    "FvD": 2,
+    "DBB": 0,
+    "VP": 0,
+    "GP": 0,
+    "Piraten Partij": 0,
+    "Artikel1": 0,
+    "Niet Stemmers": 0,
+    "LP": 0,
+    "LidK": 0
+  }
 
 });
 
