@@ -64,63 +64,58 @@ html
                             li
                                 a(href="https://www.stemopeenvrouw.com/contact") Over ons
                 .social.hide-on-small-only
-                        a(href='https://www.facebook.com/stemopeenvrouw/', target='_blank')
-                            i.fa.fa-facebook(aria-hidden='true')
-                        a(href='https://twitter.com/StemopeenVrouw', target='_blank')
-                            i.fa.fa-twitter(aria-hidden='true')
-                        a(href='http://www.instagram.com/stemopeenvrouw', target='_blank')
-                            i.fa.fa-instagram(aria-hidden='true')
+                    a(href='https://www.facebook.com/stemopeenvrouw/', target='_blank')
+                        i.fa.fa-facebook(aria-hidden='true')
+                    a(href='https://twitter.com/StemopeenVrouw', target='_blank')
+                        i.fa.fa-twitter(aria-hidden='true')
+                    a(href='http://www.instagram.com/stemopeenvrouw', target='_blank')
+                        i.fa.fa-instagram(aria-hidden='true')
         .container
             div(ng-app="stemVrouw")
                 div(ng-controller="CandidateCtrl")
                     a(name="top")
-                    // menu met alle partijen voor op mobiel
-                    .row.menu.hide-on-med-and-up
-                        span.menulink(ng-repeat='party in affiliation')
-                            a(href="#{{party.AffiliationIdentifier.RegisteredName}}") {{party.AffiliationIdentifier.MenuName}}
-                    //zoekbalk row
-                    //.row
-                    //    form.col.s12.m9.l10
-                    //        .input-field.col.s6
-                    //            i.material-icons.prefix
-                    //            input#icon_prefix.validate(ng-model="search", type="text")
-                    //            label(for='icon_prefix') Search
-
-                    //row met partijen table
-                    .row.section.scrollspy
-                        .col.s12.m9.l10
-                            .party(ng-repeat='party in affiliation', id='{{party.AffiliationIdentifier.MenuName}}')
-                                a(name="{{party.AffiliationIdentifier.RegisteredName}}")
-                                    h4
-                                        a(href="{{party.AffiliationIdentifier.website}}", target="_blank") {{party.AffiliationIdentifier.RegisteredName}}
-                                    span.number {{filtered.length}} / {{party.Candidate.length}} ( {{filtered.length/party.Candidate.length*100 | number: 0}}% ) vrouwen
-                                table.table.striped
-                                    | {{loading}}
-                                    thead
-                                        tr
-                                            th Positie
-                                            th Naam
-                                            th Stad
-                                    tbody
-                                        tr(ng-repeat="candidate in party.Candidate | filter: search | filter:{ Gender: 'female'} as filtered ")
-                                            td
-                                                | {{candidate.CandidateIdentifier._Id}}
-                                            td
-                                                a.link(href="{{candidate.website}}", target="_blank") {{candidate.CandidateFullName.PersonName.FirstName.__text}} {{candidate.CandidateFullName.PersonName.NamePrefix.__text}} {{candidate.CandidateFullName.PersonName.LastName.__text}}
-                                            td
-                                                | {{candidate.QualifyingAddress.Locality.LocalityName.__text}}
-                                a.backtotop(href="#top")
-                                    button.button Terug naar boven
-                        .col.hide-on-small-only.m3.l2
-                            ul.table-of-contents.pinned
-                                li
-                                    a(href="#top") Top
-                                li(ng-repeat='party in affiliation')
-                                    a(href='#{{party.AffiliationIdentifier.MenuName}}') {{party.AffiliationIdentifier.MenuName}}
-
-
-
-
+                    .row
+                        .col.hide-on-small-only.m3
+                        .col.s12.m6
+                            .text
+                                p Deze randomizer neemt alleen de vrouwen t/m plek 40 mee in verband met verschillende kiesdistricten. Wij nemen geen verantwoordelijkheid voor de gevolgen van het random stemmen zonder enige vorm van onderzoek. Wij raden je dan ook ten zeerste aan goed onderzoek te doen naar de persoon op wie je gaat stemmen.
+                    .row
+                        .col.hide-on-small-only.m3
+                        .col.s12.m6
+                            .input-field
+                                select(ng-model="choosenParty")
+                                    option(value='', disabled='', selected='') Kies je partij
+                                    option(value='VVD') VVD
+                                    option(value='PvdA') PvdA
+                                    option(value='PVV') PVV
+                                    option(value='SP')  SP
+                                    option(value='CDA')  CDA
+                                    option(value='D66')  D66
+                                    option(value='CU')  CU
+                                    option(value='GroenLinks') GroenLinks
+                                    option(value='SGP') SGP
+                                    option(value='PvdD') Partij voor de Dieren
+                                    option(value='50Plus') 50Plus
+                                    option(value='OndernemersPartij') OndernemersPartij
+                                    option(value='VNL') VNL
+                                    option(value='Denk') Denk
+                                    option(value='Nieuwe Wegen') Nieuwe Wegen
+                                    option(value='FvD') FvD
+                                    option(value='DBB') DBB
+                                    option(value='VP') VP
+                                    option(value='GP') GeenPeil
+                                    option(value='Piraten Partij') Piraten Partij
+                                    option(value='Artikel1') Artikel 1
+                                    option(value='Niet Stemmers') Niet Stemmers
+                                    option(value='LP') Libertarische Partij
+                                    option(value='LidK') Lokaal in de Kamer
+                                label Kies je partij
+                                button.button(ng-click="generateRandomWoman(choosenParty)") Geef mij een vrouw
+                                p(ng-if="randomWoman") Gefeliciteerd, jouw random vrouw is&nbsp;
+                                        a.link(href="{{website}}", target="_blank") {{randomWoman}}!
+                                p(ng-if="randomWoman") Zij staat op plek {{plek}}. De {{choosenParty}} wordt gepeild op {{peiling}} zetels.&nbsp;
+                                    span(ng-if="nuttig === 1") Zij staat verder op de lijst en kan met jouw voorkeursstem toch de kamer in komen!
+                                    span(ng-if="nuttig === 0") Helaas, zij komt waarschijnlijk sowieso in de kamer, genereer een nieuwe vrouw!
 
         script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
         script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js')
