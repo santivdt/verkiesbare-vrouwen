@@ -22,7 +22,7 @@ app.controller('CandidateCtrl', function ($scope, $http) {
     $scope.peiling = peilingen[party];
 
     for (var i = 0; i < candidateList.length; i++) {
-      if(candidateList[i].Gender == 'female') {
+      if(candidateList[i].Gender == 'female' && candidateList[i].CandidateIdentifier._Id < 41) {
         womenOfSelectedParty.push(candidateList[i]);
         }
     }
