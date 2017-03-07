@@ -27,49 +27,6 @@ html
             ga('create', 'UA-90719143-1', 'auto');
             ga('send', 'pageview');
     body
-        .navbar-fixed
-            nav
-                .container.valign-wrapper
-                    .nav-wrapper
-                        a.button-collapse(href='#', data-activates='mobile-demo')
-                            i.material-icons menu
-                        ul.hide-on-med-and-down
-                            li
-                                a(href="https://www.stemopeenvrouw.com") Stem op een Vrouw
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#waarom") Waarom
-                            li
-                                a(href="https://www.stemopeenvrouw.com/cijfers") Peilingen
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#geschiedenis") Geschiedenis
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#faq") FAQ
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#helpen") Helpen
-                            li
-                                a(href="https://www.stemopeenvrouw.com/contact") Over ons
-                        ul#mobile-demo.side-nav
-                            li
-                                a(href="https://www.stemopeenvrouw.com") Stem op een Vrouw
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#waarom") Waarom
-                            li
-                                a(href="https://www.stemopeenvrouw.com/cijfers") Peilingen
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#geschiedenis") Geschiedenis
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#faq") FAQ
-                            li
-                                a(href="https://www.stemopeenvrouw.com/#helpen") Helpen
-                            li
-                                a(href="https://www.stemopeenvrouw.com/contact") Over ons
-                .social.hide-on-small-only
-                    a(href='https://www.facebook.com/stemopeenvrouw/', target='_blank')
-                        i.fa.fa-facebook(aria-hidden='true')
-                    a(href='https://twitter.com/StemopeenVrouw', target='_blank')
-                        i.fa.fa-twitter(aria-hidden='true')
-                    a(href='http://www.instagram.com/stemopeenvrouw', target='_blank')
-                        i.fa.fa-instagram(aria-hidden='true')
         .container
             div(ng-app="stemVrouw")
                 div(ng-controller="CandidateCtrl")
