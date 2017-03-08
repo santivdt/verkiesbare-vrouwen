@@ -22,4 +22,5 @@ app.controller('CandidateCtrl', function ($scope, $http) {
 $( document ).ready(function(){
   $(".button-collapse").sideNav();
   $('.scrollspy').scrollSpy();
+  $(".dropdown-button").dropdown();
 });

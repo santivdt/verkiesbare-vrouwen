@@ -168,3 +168,13 @@ ul.table-of-contents {
 #sidenav-overlay {
   z-index: 996!important;
 }
+
+// DROPDOWN
+.dropdown-content li {
+  background-color: $chocolate;
+  color: white;
+}
+
+.dropdown-content li>a {
+  color: white!important;
+}
