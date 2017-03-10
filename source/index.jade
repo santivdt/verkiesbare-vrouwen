@@ -87,14 +87,6 @@ html
                     .row.menu.hide-on-med-and-up
                         span.menulink(ng-repeat='party in affiliation')
                             a(href="#{{party.AffiliationIdentifier.RegisteredName}}") {{party.AffiliationIdentifier.MenuName}}
-                    //zoekbalk row
-                    //.row
-                    //    form.col.s12.m9.l10
-                    //        .input-field.col.s6
-                    //            i.material-icons.prefix
-                    //            input#icon_prefix.validate(ng-model="search", type="text")
-                    //            label(for='icon_prefix') Search
-                    // row met partijen table
                     .row.section.scrollspy
                         .col.s12.m9.l10
                             .party(ng-repeat='party in affiliation', id='{{party.AffiliationIdentifier.MenuName}}')
@@ -110,7 +102,7 @@ html
                                             th Naam
                                             th Stad
                                     tbody
-                                        tr(ng-repeat="candidate in party.Candidate | filter: search | filter:{ Gender: 'female'} as filtered ")
+                                        tr(ng-repeat="candidate in party.Candidate | filter: search | filter:{ Gender: 'female'} as filtered ", ng-if="candidate.CandidateIdentifier._Id < 41")
                                             td
                                                 | {{candidate.CandidateIdentifier._Id}}
                                             td
